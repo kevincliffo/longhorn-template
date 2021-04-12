@@ -1,0 +1,38 @@
+.img-carousel{
+    width: 1280px;
+    height: 853px;
+    object-fit: cover;
+}
+.top-buffer { 
+    margin-top:4%; 
+}
+@media (max-width: 350px) {
+    .img-carousel{
+        width: 366px;
+        height: 172px;
+        object-fit: cover;
+    }    
+}
+
+@media (max-width: 576px) {
+    .img-carousel{
+        width: 576px;
+        height: 270px;
+        object-fit: cover;
+    }    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .img-carousel{
+        width: 366px;
+        height: 172px;
+        object-fit: cover;
+    }    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
