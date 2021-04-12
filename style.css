@@ -6,6 +6,11 @@
 .top-buffer { 
     margin-top:4%; 
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 @media (max-width: 350px) {
     .img-carousel{
         width: 366px;
@@ -28,7 +33,14 @@
         width: 366px;
         height: 172px;
         object-fit: cover;
-    }    
+    }
+    .flex-container {
+        flex-direction: column;
+        justify-content:space-around;
+      }
+      .card{
+        margin-top:2%; 
+      }
 }
 
 /* Large devices (desktops, 992px and up) */
