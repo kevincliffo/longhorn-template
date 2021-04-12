@@ -132,9 +132,14 @@ ul.no-bullets {
     padding: 2px;
   }
 
-  .line{
+.line{
     border-left: 2px solid black;
     height: 270px;
+}
+.under-line{
+    border-top: 3px solid rgb(10, 10, 10);
+    margin-left: 42px;
+    width: 270px;
 }
 @media (max-width: 350px) {
     .img-carousel{
