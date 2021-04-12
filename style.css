@@ -134,7 +134,7 @@ ul.no-bullets {
 
   .line{
     border-left: 2px solid black;
-    height: 200px;
+    height: 270px;
 }
 @media (max-width: 350px) {
     .img-carousel{
