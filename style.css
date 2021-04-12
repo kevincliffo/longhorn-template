@@ -126,6 +126,16 @@
     height: 299px;
     object-fit: cover;
 }
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .line{
+    border-left: 2px solid black;
+    height: 200px;
+}
 @media (max-width: 350px) {
     .img-carousel{
         width: 366px;
