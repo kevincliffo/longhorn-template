@@ -11,12 +11,109 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0
+}
+
+.template-demo>.btn {
+    margin-right: 0.5rem !important
+}
+
+.template-demo {
+    margin-top: 0.5rem !important
+}
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff
+}
+.btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1
+}
+.btn-outline-instagram {
+    border: 1px solid #dc4a38;
+    color: #dc4a38
+}
+
+.btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff
+}
+.btn-outline-instagram:hover {
+    background: #e52d27;
+    color: #ffffff
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff
+}
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff
+}
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff
+}
+
 @media (max-width: 350px) {
     .img-carousel{
         width: 366px;
         height: 172px;
         object-fit: cover;
-    }    
+    }
+    .flex-container {
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .card{
+        margin-top:2%; 
+    }
+    .educ-button{
+        float:none;
+    }
+    .educ-books{
+        width: 350px;
+        height: 274px;
+        object-fit: cover;
+    }
+    .contact-img{
+        width: 350px;
+        height: 274px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 576px) {
@@ -24,7 +121,27 @@
         width: 576px;
         height: 270px;
         object-fit: cover;
-    }    
+    }
+    .flex-container {
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .card{
+        margin-top:2%; 
+    }
+    .educ-button{
+        float:none;
+    }
+    .educ-books{
+        width: 576px;
+        height: 452px;
+        object-fit: cover;
+    }
+    .contact-img{
+        width: 576px;
+        height: 452px;
+        object-fit: cover;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -37,10 +154,23 @@
     .flex-container {
         flex-direction: column;
         justify-content:space-around;
-      }
-      .card{
+    }
+    .card{
         margin-top:2%; 
-      }
+    }
+    .educ-button{
+        float:none;
+    }
+    .educ-books{
+        width: 766px;
+        height: 603px;
+        object-fit: cover;
+    }
+    .contact-img{
+        width: 766px;
+        height: 603px;
+        object-fit: cover;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
