@@ -116,6 +116,11 @@
     left: 30px;
     top: 60px;
 }
+.book-card{
+    width: 215px;
+    height: 315px;
+    object-fit: cover;
+}
 .book-card-img{
     width: 200px;
     height: 299px;
