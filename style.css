@@ -88,6 +88,34 @@
     color: #ffffff
 }
 
+#jumboCarousel {
+    margin-top: 50px;
+    min-height: 300px;
+    min-width: 100%;
+}
+#jumboCarousel img {
+    min-height: 300px;
+    min-width: 100%;
+}
+#jumboCarousel > .carousel-indicators > li {
+    border-radius: 0px;
+    min-width: 25px;
+    background-color: #9d9d9d;
+    border: 1px solid black;
+    margin-right: 10px;;
+    margin-left: 10px;;
+}
+#jumboCarousel > .carousel-indicators > .active {
+    background-color: orange;
+}
+#jumboCarousel .carousel-caption {
+    color: black;
+    right: 58%;
+    text-align: left;
+    max-width: 500px;
+    left: 30px;
+    top: 60px;
+}
 @media (max-width: 350px) {
     .img-carousel{
         width: 366px;
