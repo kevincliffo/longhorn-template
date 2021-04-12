@@ -133,7 +133,7 @@ ul.no-bullets {
   }
 
 .line{
-    border-left: 2px solid black;
+    border-left: 1px solid rgb(138, 133, 133);
     height: 270px;
 }
 .under-line{
